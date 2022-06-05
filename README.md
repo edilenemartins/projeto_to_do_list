@@ -1,2 +1,3 @@
-# projeto_to_do_list
-Projeto adicionar uma tarefa à uma lista
+# Projeto adiciona uma tarefa à uma lista.
+
+Objetivo do projeto é adicionar uma tarefa à uma lista.
