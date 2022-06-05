@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#texto {
+    margin-left: -30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 28px;
+}
+
+#adicionar {
+    background-color: #F0F8FF;
+    height: 32px;
+    border-radius: 5px;
+    border: 1px solid #00BFFF;
+    color: #00BFFF;
+    width: 90px;
+}
+
+#tasks {
+    margin-top: 20px;
+    margin-left: -290px;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
